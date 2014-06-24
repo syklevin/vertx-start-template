@@ -1,1 +1,13 @@
-apply from: "gradle/vertx.gradle"
+apply from: "$rootDir/gradle/vertx.gradle"
+
+dependencies {
+
+}
+
+test {
+  
+}
+
+uploadArchives {
+
+}
