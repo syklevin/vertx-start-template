@@ -53,11 +53,11 @@ uploadArchives {
 					authentication(userName: sonatypeUsername, password: sonatypePassword)
 				}
 
-				if (isReleaseVersion) {
-					beforeDeployment { MavenDeployment deployment -> signing.signPom(deployment) }
-				}
-
-				configurePom(pom)
+//				if (isReleaseVersion) {
+//					beforeDeployment { MavenDeployment deployment -> signing.signPom(deployment) }
+//				}
+//
+//				configurePom(pom)
 			}
 		}
 	}

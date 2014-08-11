@@ -1,5 +1,10 @@
 apply from: "$rootDir/gradle/vertx.gradle"
 
+repositories {
+  maven { url 'http://repo.acsdev.net/content/repositories/releases' }
+  maven { url 'http://repo.acsdev.net/content/repositories/snapshots' }
+}
+
 dependencies {
 
 }
